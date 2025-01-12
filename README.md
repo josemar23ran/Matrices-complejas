@@ -5,7 +5,11 @@ Esta calculadora tiene la facilidad de realizar operaciones entre matrices en la
 Pero a su vez permite que cada numero complejo pueda ser escrito de forma fraccionaria (a/b - c/di)
 por elmmomento permite la suma, resta, multiplicacion, determinante , Matriz Adjunta, transpuesta, inversa
 
-NOTA: ESTE PROYECTO NO UTILIZA NINGUNA LIBRERIA ESPECIALIZADA COMO MATH O NUMPY
+>[!NOTE]
+>ESTE PROYECTO NO UTILIZA NINGUNA LIBRERIA ESPECIALIZADA COMO MATH O NUMPY
+
+>[!IMPORTANT]
+>Para el determinante tener en cuenta que realiza operaciones de 'n!/2', es decir, para una matriz de 9x9 realizara 181,440 operaciones de determinante 2x2 
 
 Contenido:
 Class_Fracciones.py  - Contiene todas las operaciones de una fracción, (+,-,*,/), ademas de metodos como simplificar y otros metodos especiales para facilitar su trabajo
